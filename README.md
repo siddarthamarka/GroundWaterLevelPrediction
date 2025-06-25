@@ -4,15 +4,16 @@ This project predicts groundwater levels for borewells in Telangana using a trai
 
 ## 📂 Project Structure
 
-GWL/
-├── app.py                          # Flask web application
-├── groundwater_rf_model.pkl        # Trained Random Forest model
-├── GWL-MLCode.txt                  # Python code used for training
-├── predicted_results.csv           # Sample predictions output
-├── templates/
-│   └── index.html                  # HTML template for UI
-└── uploads/
-    └── Telangana_Realistic_Borewell_Dataset.csv  # Groundwater dataset
+| Folder / File                                        | Description                                             |
+|-----------------------------------------------------|---------------------------------------------------------|
+| `GWL/`                                              | Root project directory                                  |
+| `app.py`                                            | Flask web application for groundwater prediction        |
+| `groundwater_rf_model.pkl`                          | Trained Random Forest model saved using `pickle`       |
+| `GWL-MLCode.txt`                                    | Python script used for model training and preprocessing |
+| `predicted_results.csv`                             | Sample output file with model predictions               |
+| `templates/index.html`                              | HTML template for user interface                        |
+| `uploads/Telangana_Realistic_Borewell_Dataset.csv`  | Input dataset used for training and testing             |
+
 
 ## 🚀 How to Run the Project
 
